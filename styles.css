@@ -181,6 +181,15 @@ a {
   font-size: 0.7rem;
 }
 
+.pipe {
+  color: var(--gold-500);
+  font-weight: 800;
+  padding: 0 8px;
+  font-size: 1.35em;
+  display: inline-block;
+  transform: translateY(1px);
+}
+
 .footer {
   background: var(--blue-950);
   padding: 36px 8vw 48px;
