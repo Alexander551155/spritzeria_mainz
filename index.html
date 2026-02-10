@@ -7,111 +7,57 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="hero__content">
-      <p class="hero__tag">Gaustrasse · Mainz</p>
-      <h1>Spritzeria Mainz</h1>
-      <p class="hero__lead">Aperitivo, Spritz, gute Vibes.</p>
-      <div class="hero__actions">
-        <a class="btn" href="#besuch">Besuch planen</a>
-        <a class="btn btn--ghost" href="#menu">Spritz-Auswahl</a>
-      </div>
+  <header class="hero" aria-label="Spritzeria Mainz">
+    <div class="hero__bg" aria-hidden="true">
+      <img class="hero__img is-active" src="d71d0fa7-8e40-49f5-aba6-9d9f33c2bea8_1200x1600_Q80Mcrop_944x708_E5C44B364DD727E3CA9E73EADE631CB5.jpg" alt="" />
+      <img class="hero__img" src="c66664a6-432a-4258-a0bd-62a15f1f60ad_2048x1536_Q80Fl101t510r1856b1321Mcrop_940x350_182CE3226AC89A6860ABD76741D3CDAD.jpg" alt="" />
+      <img class="hero__img" src="30fbd3f9-5226-429c-9777-0d631c048c3d_1600x1200_Q80Mcrop_940x350_36241D7FB9D5F4948BE43C551A788C56.jpg" alt="" />
+      <img class="hero__img" src="c2a449b3-70f1-47bf-80b4-05d25153586d_1600x900_Q80Mcrop_940x350_487292707894A4C07B2B05768C965A02.jpg" alt="" />
     </div>
-    <div class="hero__visual" aria-hidden="true">
-      <div class="hero__card">
-        <span>Signature</span>
-        <strong>Blutorange & Basilikum</strong>
-      </div>
-      <div class="hero__placeholder">
-        <img src="d71d0fa7-8e40-49f5-aba6-9d9f33c2bea8_1200x1600_Q80Mcrop_944x708_E5C44B364DD727E3CA9E73EADE631CB5.jpg" alt="Spritzeria Drink im Glas" />
+    <div class="hero__overlay"></div>
+
+    <div class="hero__content">
+      <p class="hero__tag">Gaustrasse 12 · Mainz</p>
+      <h1>Spritzeria</h1>
+      <p class="hero__lead">Caffe | Birra | Aperitivo | Pinsa</p>
+      <p class="hero__sub">Die erste Spritzbar in Mainz</p>
+      <div class="hero__actions">
+        <a class="btn" href="tel:+496131000000">Anrufen</a>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="section section--story">
-      <div>
-        <h2>Neu in Mainz</h2>
-        <p>Spritzeria bringt Aperitivo-Feeling in die Gaustrasse.</p>
+    <section id="reservieren" class="contact">
+      <div class="contact__row">
+        <span>Spritzeria Mainz</span>
+        <strong>Gaustrasse 12, 55116 Mainz</strong>
       </div>
-      <div class="story__grid">
-        <div class="photo-block">
-          <img class="photo-block__img" src="c66664a6-432a-4258-a0bd-62a15f1f60ad_2048x1536_Q80Fl101t510r1856b1321Mcrop_940x350_182CE3226AC89A6860ABD76741D3CDAD.jpg" alt="Aussenansicht Spritzeria" />
-          <div class="photo-block__caption">Gaustrasse</div>
-        </div>
-        <div class="photo-block">
-          <img class="photo-block__img" src="30fbd3f9-5226-429c-9777-0d631c048c3d_1600x1200_Q80Mcrop_940x350_36241D7FB9D5F4948BE43C551A788C56.jpg" alt="Spritz und Ambiente" />
-          <div class="photo-block__caption">Spritz</div>
-        </div>
+      <div class="contact__row">
+        <span>Oeffnungszeiten</span>
+        <strong>DI-DO 18-23 | FR-SA 18-01</strong>
+        <strong>Gaustrasse 12 | NO RESERVATIONS</strong>
       </div>
-    </section>
-
-    <section class="section section--highlight">
-      <div class="highlight">
-        <h3>Drinks</h3>
-        <p>Frisch, spritzig, klar.</p>
+      <div class="contact__row">
+        <span>+49 6131 000000</span>
+        <strong><a href="tel:+496131000000">Anrufen</a></strong>
       </div>
-      <div class="highlight">
-        <h3>Snacks</h3>
-        <p>Kleine Teller zum Teilen.</p>
-      </div>
-      <div class="highlight">
-        <h3>Vibe</h3>
-        <p>Abendsonne, Musik, Gespraeche.</p>
-      </div>
-    </section>
-
-    <section id="menu" class="section section--menu">
-      <div>
-        <h2>Spritz-Auswahl</h2>
-        <ul class="menu">
-          <li>
-            <strong>Mainz Classic</strong>
-            <span>Sprudelwein, Blutorange</span>
-          </li>
-          <li>
-            <strong>Gaustrasse Gold</strong>
-            <span>Bitters, Grapefruit</span>
-          </li>
-          <li>
-            <strong>Rheinblick</strong>
-            <span>Holunder, Zitrone</span>
-          </li>
-        </ul>
-      </div>
-      <div class="menu__visual" aria-hidden="true">
-        <div class="menu__bubble">
-          <img src="c2a449b3-70f1-47bf-80b4-05d25153586d_1600x900_Q80Mcrop_940x350_487292707894A4C07B2B05768C965A02.jpg" alt="Spritz in der Bar" />
-        </div>
-      </div>
-    </section>
-
-    <section id="besuch" class="section section--visit">
-      <div class="visit__card">
-        <h2>Besuch</h2>
-        <p>
-          Adresse: Gaustrasse, Mainz<br />
-          Jetzt geoeffnet
-        </p>
-        <p>
-          Instagram: <a href="https://www.instagram.com/spritzeria.mainz/?hl=de" target="_blank" rel="noreferrer">@spritzeria.mainz</a>
-        </p>
-      </div>
-      <div class="visit__panel">
-        <img src="d71d0fa7-8e40-49f5-aba6-9d9f33c2bea8_1200x1600_Q80Mcrop_944x708_E5C44B364DD727E3CA9E73EADE631CB5.jpg" alt="Spritzeria Stimmung" />
+      <div class="contact__row">
+        <span>MAIL</span>
+        <strong><a href="mailto:hallo@spritzeria-mainz.de">hallo@spritzeria-mainz.de</a></strong>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div>
-      <strong>Spritzeria Mainz</strong>
-      <p>Blau & Gold, Gaustrasse, Mainz</p>
-    </div>
+    <div class="footer__brand">Spritzeria Mainz</div>
     <div class="footer__links">
-      <a href="https://merkurist.de/mainz/spritzeria-neueroeffnung-" target="_blank" rel="noreferrer">Presse</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
       <a href="https://www.instagram.com/spritzeria.mainz/?hl=de" target="_blank" rel="noreferrer">Instagram</a>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
